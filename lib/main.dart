@@ -28,13 +28,13 @@ class _MyAppState extends State<MyApp> {
           mainAxisAlignment: MainAxisAlignment.center,
           crossAxisAlignment: CrossAxisAlignment.center,
           children: [
-            Center(
+            const Center(
               child: Text(
                 "Lottery winning number is 5",
-                style: const TextStyle(fontSize: 24),
+                style: TextStyle(fontSize: 24),
               ),
             ),
-            SizedBox(
+            const SizedBox(
               height: 20,
             ),
             Container(
@@ -50,12 +50,12 @@ class _MyAppState extends State<MyApp> {
                         mainAxisAlignment: MainAxisAlignment.center,
                         crossAxisAlignment: CrossAxisAlignment.center,
                         children: [
-                          Icon(
+                          const Icon(
                             Icons.done_all_outlined,
                             color: Colors.green,
                             size: 35,
                           ),
-                          SizedBox(
+                          const SizedBox(
                             height: 5,
                           ),
                           Text(
@@ -68,12 +68,12 @@ class _MyAppState extends State<MyApp> {
                         mainAxisAlignment: MainAxisAlignment.center,
                         crossAxisAlignment: CrossAxisAlignment.center,
                         children: [
-                          Icon(
+                          const Icon(
                             Icons.error_outline,
                             color: Colors.red,
                             size: 35,
                           ),
-                          SizedBox(
+                          const SizedBox(
                             height: 5,
                           ),
                           Text(
